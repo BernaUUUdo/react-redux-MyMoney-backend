@@ -12,3 +12,4 @@ server.listen( port, function(){
     console.log(`myMoney BACKEND is running on port ${port}`)
 })
 
+module.exports = server

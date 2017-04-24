@@ -1,4 +1,4 @@
-const BillingCyrcle = require('./BillingCyrcle')
+const BillingCyrcle = require('./billingCyrcle')
 
 BillingCyrcle.methods(['get','post','put','delete'])
 BillingCyrcle.updateOptions({
@@ -7,4 +7,4 @@ BillingCyrcle.updateOptions({
 })
 
 
-module.exports(BillingCyrcle)
+module.exports = BillingCyrcle
